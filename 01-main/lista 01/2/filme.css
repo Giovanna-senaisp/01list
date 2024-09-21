@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "fonte";
+    src: url(apple_garamond/AppleGaramond-Bold.ttf);
+body{
+    background-color: #D5D5D5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+}
+.inicio{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-items: flex-start;
+}
+.poster{
+    width: 100%;
+    display: flex;
+    justify-items: flex-end;
+}

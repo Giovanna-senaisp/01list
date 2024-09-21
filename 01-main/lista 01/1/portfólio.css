@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "fonte";
+    src: url(apple_garamond/AppleGaramond-Bold.ttf);
+}
+header{
+    display: flex;
+    align-items: center;
+    margin: 0 50px;
+}
+body{
+    background-color: #CADBB7;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 15px;
+}
+.Titulo {
+    color: #485935;
+    font-size: 55px;
+    font-family: "fonte", sans-serif;
+    margin: -53px 15px 0;
+}
+.linha{
+    background-color: #485935;
+    height: 3px;
+    width: 100%;
+}
+.TituloM{
+    color: #485935;
+    font-size: 50px;
+    font-family: "fonte", sans-serif;
+}
+.texto{
+    color: #000000;
+    font-size: 20px;
+    font-family: "fonte", sans-serif;
+}
+.textinho{
+    color: #000000;
+    font-size: 35px;
+    font-family: "fonte", sans-serif;
+}
+.lugares{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.textinhoL{
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-size: 35px;
+    font-family: "fonte", sans-serif;
+    text-align: justify;
+}
+.lugares div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgM{
+    width: 213px;
+    height: 310px;
+    margin: 15px;
+}
+.series{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.div-fotos{
+    display: flex;
+    justify-items: flex-start;
+    
+}
