@@ -1,20 +1,125 @@
 @font-face {
     font-family: "fonte";
     src: url(apple_garamond/AppleGaramond-Bold.ttf);
-body{
-    background-color: #D5D5D5;
-    padding-left: 15px;
-    padding-right: 15px;
 }
+header{
+    width: 100%;
+    height: 50px;
+}
+main{
+    background-color: #D5D5D5;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 .inicio{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-items: flex-start;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+.texto-inicio{
+padding: 25px;
+
 }
 .poster{
     width: 100%;
     display: flex;
     justify-items: flex-end;
+}
+.elenco{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 50px;
+}
+.elencoT{
+    text-align: left;
+    padding-left: 60px;
+}
+.fileira{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.ator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+h1{
+    width: 100%;
+    color: #3B63A8;
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+.img-poster{
+    width: 400px;
+    padding-bottom: 20px;
+}
+.resumo{
+    width: 712px;
+    height: 301px;
+    text-align: left;
+    font-size: 32px;
+}
+.diretor{
+    display: flex;
+    align-items: flex-start;
+}
+.texto-diretor{
+    padding: 15px;
+}
+.trailer{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    justify-items: center;   
+    padding: 20px;
+}
+.trailerT{
+    width: 100%;
+    text-align: center;
+}
+a{
+    color: black;
+    font-size: 32px;
+}
+a:hover {
+    transition: all 0.5s ease-out;
+    font-size: 34px;
+    background-color: #3B63A8;
+    border-radius: 25px;
+    padding: 10px;
+  }
+.img_opiniao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+.img_opiniao img{
+ padding: 5px;
+}
+.opiniaoT{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+}
+.linha{
+    background-color: #0a2047;
+    height: 50px;
+    width: 100%;
 }
