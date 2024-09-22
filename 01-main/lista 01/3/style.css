@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "fonte";
+    src: url(apple_garamond/AppleGaramond-Bold.ttf);
+}
+header{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.header{
+    background-color: #FABD0D;
+    border-radius: 30px;
+    width: 660px;
+    height: 103px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    position: fixed;
+     top: 0;
+     margin-top: 15px;
+}
+.bt_header{
+    background: none;
+    border: none;
+    font-size: 35px;
+}
+main{
+    background-color: #FBF5E7;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.baner{
+    background-image: url(img/booner.png);
+    height: 615px;
+    width: 1181px;
+    display: flex;
+    flex-direction: column;
+    align-items: first baseline;
+    text-align: left;
+    justify-content: last baseline;
+}
+.Titulob{
+    color: white;
+    font-size: 55px;
+}
+.textob{
+    color: white;
+    font-size: 30px;
+}
