@@ -70,33 +70,44 @@ main{
     align-items: center;
     text-align: center;
 }
+a{
+    text-decoration: dashed;
+    font-size: 35px;
+    color: black;
+    padding: 15px;
+}
+a:hover{
+    transition: all 0.5s ease-out;
+    text-decoration: solid;
+    color: #FD1E4A;
+}
 .amarelo_footer{
   background-color: #FABD0D;  
   width: 714px;
-  height: 337px;
+  height: 500px;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: left;
-  margin: -53px 15px 0;
+  margin-left: 50px;
+  float: initial;
 }
-footer{
+.footer{
     background-color: #FD1E4A;
     display: flex;
-    flex-direction: row;
-    align-items: first baseline;
-    height: 466px;
+    flex-direction: column;
     border-radius: 30px;
+    width: 1440px;
+    height: 462px;
 }
+
 .logo{
-width: 100%;
 display: flex;
 flex-direction: column;
 align-items: end;
 }
 .redes{
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: start;
