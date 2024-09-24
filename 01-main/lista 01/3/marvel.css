@@ -1,0 +1,18 @@
+font-face {
+    font-family: "fonte";
+    src: url(apple_garamond/AppleGaramond-Bold.ttf);
+}
+header{
+    background-color: #FD1E4A;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-radius: 0 0 30px 30px;
+}
+button{
+    background-color: #FD1E4A;
+    border: 0;
+    width: 93px;
+    height: 93px;
+}
