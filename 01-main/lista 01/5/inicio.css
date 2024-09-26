@@ -70,6 +70,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 .imgs{
     display: flex;
@@ -93,4 +94,60 @@ main{
     height: 299px;
     margin-left: 200px;
     margin-top: -180px;
+}
+.perfil{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 250px;
+}
+.perfil img{
+    width: 78px;
+    height: 78px;
+}
+.perfil h1{
+    font-size: 36px;
+}
+.estrelas{
+    width: 302px;
+    justify-content: right;
+}
+.avaliacaot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.avaliacaot p{
+    font-size: 24px;   
+    width: 489px;
+    text-align: center;
+}
+.cardapio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.comida1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #DB4F04;
+    width: 369px;
+    height: 517.5px;
+    margin-top: 20px;
+    border-radius: 27px 27px 0 0;
+}
+.comida1t {
+    font-size: 36px;
+    background-color: #FFE9E6;
+    text-align: center;
+    width: 350px;
+    height: 128px;
+    align-items: center;
+    justify-content: center;
+}
+.comida1 img{
+    width: 313.16px;
+    height: 313.16px;
 }
