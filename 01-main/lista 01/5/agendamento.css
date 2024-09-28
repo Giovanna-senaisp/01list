@@ -65,3 +65,24 @@ main {
     font-size: 24px;
     text-align: center;
 }
+.perguntas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.perguntas p{
+    color: #FFE9E6;
+    font-size: 24px;
+}
+.pergunta1 input{
+    width: 614px;
+    height: 57px;
+    background-color: #FFE9E6;
+    border: #FFE9E6;
+    border-radius: 60px;
+}
+.pergunta2_3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
