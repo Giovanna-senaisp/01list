@@ -2,10 +2,12 @@
     font-family: "fonte";
     src: url(apple_garamond/AppleGaramond-Bold.ttf);
 }
-body{
+
+body {
     background-color: #FFE9E6;
 }
-header{
+
+header {
     background-color: #DB4F04;
     display: flex;
     flex-direction: row;
@@ -15,137 +17,162 @@ header{
     height: 196px;
     width: 100%;
 }
-header h1{
+
+header h1 {
     font-size: 40px;
     color: #FFE9E6;
     margin-left: 50px;
 }
-.nav{
+
+.nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.nav a{
+
+.nav a {
     font-size: 40px;
     color: #FFE9E6;
     padding: 15px;
     text-decoration: dashed;
 }
-main{
+
+main {
     background-color: #FFE9E6;
 }
-.inicio{
+
+.inicio {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     margin-top: 80px;
 }
-.inicio h1{
+
+.inicio h1 {
     font-size: 60px;
     text-align: left;
     width: 417px;
     margin-left: 80px;
     margin-top: 80px;
 }
-.inicio img{
+
+.inicio img {
     width: 645px;
     height: 750px;
 }
-.inicio2{
+
+.inicio2 {
     background-color: #1D411B;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.inicio2 h1{
+
+.inicio2 h1 {
     font-size: 64px;
     color: #FFE9E6;
     padding-left: 90px;
     text-align: center;
-    
+
 }
-.inicio2 img{
+
+.inicio2 img {
     width: 1148.23px;
     height: 645px;
 }
-.laranja{
-        width: 8800px;
-        height: 645px;
-        transform: skew(15deg);
-        background: #D46E00;
-        margin-left: -200px;
+
+.laranja {
+    width: 8800px;
+    height: 645px;
+    transform: skew(15deg);
+    background: #D46E00;
+    margin-left: -200px;
 }
-.avaliacao{
+
+.avaliacao {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
-.imgs{
+
+.imgs {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.img1{
+
+.img1 {
     width: 613px;
     height: 375px;
     margin-top: 60px;
     margin-left: 60px;
 }
-.img2{
+
+.img2 {
     width: 294px;
     height: 299px;
     margin-left: 450px;
     margin-top: -80px;
 }
-.img3{
+
+.img3 {
     width: 299px;
     height: 299px;
     margin-left: 200px;
     margin-top: -180px;
 }
-.perfil{
+
+.perfil {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 250px;
 }
-.perfil img{
+
+.perfil img {
     width: 78px;
     height: 78px;
 }
-.perfil h1{
+
+.perfil h1 {
     font-size: 36px;
 }
-.estrelas{
+
+.estrelas {
     width: 302px;
     justify-content: right;
 }
-.avaliacaot{
+
+.avaliacaot {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.avaliacaot p{
-    font-size: 24px;   
+
+.avaliacaot p {
+    font-size: 24px;
     width: 480px;
     text-align: center;
     margin-left: 35px;
 }
-.textoc{
+
+.textoc {
     font-size: 55px;
     padding: 35px;
 }
-.cardapio{
+
+.cardapio {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 25px;
 }
-.comida1{
+
+.comida1 {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,6 +182,7 @@ main{
     margin-top: 20px;
     border-radius: 27px 27px 0 0;
 }
+
 .comida1t {
     font-size: 45px;
     background-color: #FFE9E6;
@@ -164,34 +192,40 @@ main{
     align-items: center;
     justify-content: center;
 }
-.comida1 img{
+
+.comida1 img {
     width: 310px;
     height: 310px;
 }
-footer{
+
+footer {
     background-color: #1D411B;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-radius: 60px 60px 0 0 ;
+    border-radius: 60px 60px 0 0;
 }
-.siga{
+
+.siga {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-.siga h1{
+
+.siga h1 {
     color: #FFE9E6;
     padding: 15px;
     text-align: center;
 }
-.redes{
+
+.redes {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 15px;
 }
-.img-footer{
+
+.img-footer {
     width: 831px;
     height: 893px;
     background: none;

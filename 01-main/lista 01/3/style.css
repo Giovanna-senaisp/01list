@@ -2,14 +2,16 @@
     font-family: "fonte";
     src: url(apple_garamond/AppleGaramond-Bold.ttf);
 }
-header{
+
+header {
     background: none;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 15px;
 }
-.header{
+
+.header {
     background-color: #FABD0D;
     border-radius: 30px;
     width: 660px;
@@ -19,20 +21,23 @@ header{
     justify-content: space-around;
     padding: 15px;
     position: fixed;
-     top: 0;
-     margin-top: 15px;
+    top: 0;
+    margin-top: 15px;
 }
-.bt_header{
+
+.bt_header {
     background: none;
     border: none;
     font-size: 35px;
 }
-main{
+
+main {
     background-color: #FBF5E7;
     padding-left: 50px;
     padding-right: 50px;
 }
-.baner{
+
+.baner {
     background-image: url(img/booner.png);
     height: 615px;
     width: 1181px;
@@ -41,85 +46,100 @@ main{
     justify-content: center;
     text-align: left;
 }
-.Titulob{
+
+.Titulob {
     color: white;
     font-size: 55px;
     padding: 20px;
 }
-.textob{
+
+.textob {
     color: white;
     font-size: 30px;
     padding: 20px;
     margin-top: -70px;
 }
-.T{
+
+.T {
     font-size: 65px;
     text-align: center;
 }
-.maisVendidos{
+
+.maisVendidos {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
 }
-.fileira{
+
+.fileira {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
 }
-.quadrinho{
+
+.quadrinho {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.quadrinho img{
+
+.quadrinho img {
     width: 320px;
     height: 430px;
 }
-.quadrinho h1{
+
+.quadrinho h1 {
     font-size: 25px;
 }
-.quadrinho p{
+
+.quadrinho p {
     font-size: 15px;
 }
-.nav-marvel{
+
+.nav-marvel {
     text-decoration: dashed;
     font-size: 35px;
     color: black;
     padding: 15px;
 }
-.nav-marvel:hover{
+
+.nav-marvel:hover {
     transition: all 0.5s ease-out;
     text-decoration: solid;
     color: #FD1E4A;
 }
-.nav-dc{
+
+.nav-dc {
     text-decoration: dashed;
     font-size: 35px;
     color: black;
     padding: 15px;
 }
-.nav-dc:hover{
+
+.nav-dc:hover {
     transition: all 0.5s ease-out;
     text-decoration: solid;
     color: #1E27FD;
 }
-.amarelo_footer{
-  background-color: #FABD0D;  
-  /* width: 714px;
+
+.amarelo_footer {
+    background-color: #FABD0D;
+    /* width: 714px;
   height: 500px; */
-  border-radius: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  text-align: left;
-  margin-left: 50px;
-  width: 714px;
-  height: 500px;
-  position: relative;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-left: 50px;
+    width: 714px;
+    height: 500px;
+    position: relative;
 }
-.footer{
+
+.footer {
     background-color: #FD1E4A;
     display: flex;
     flex-direction: column;
@@ -129,12 +149,13 @@ main{
     margin-left: 20px;
 }
 
-.logo{
-display: flex;
-flex-direction: column;
-align-items: end;
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 }
-.redes{
+
+.redes {
     display: flex;
     flex-direction: row;
     align-items: start;
