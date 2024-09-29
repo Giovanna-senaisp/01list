@@ -21,7 +21,7 @@ header {
 header h1 {
     font-size: 40px;
     color: #FFE9E6;
-    margin-left: 50px;
+
 }
 
 .nav {
@@ -30,10 +30,9 @@ header h1 {
     justify-content: center;
 }
 
-.nav a {
+a {
     font-size: 40px;
     color: #FFE9E6;
-    padding: 15px;
     text-decoration: dashed;
 }
 
@@ -42,47 +41,54 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.verde {
+.main h1{
+    font-size: 55px;
+    margin: 30px;
+}
+.verde{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     background-color: #485935;
     width: 1153px;
-    height: 673px;
-    border-radius: 60px 60px 60px 60px;
-}
-.data{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 344px;
-    height: 337px;
-}
-.data p{
-    color: #FFE9E6;
-    font-size: 24px;
-    text-align: center;
-}
-.perguntas{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.perguntas p{
-    color: #FFE9E6;
-    font-size: 24px;
-}
-.pergunta1 input{
-    width: 614px;
-    height: 57px;
-    background-color: #FFE9E6;
-    border: #FFE9E6;
+    height: 572px;
     border-radius: 60px;
+    margin-bottom: 30px;
 }
-.pergunta2_3{
+
+.fileira{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.pergunta{
+    margin: 15px;
+}
+input{
+    width: 414px;
+    height: 57px;
+    background-color: #FFE9E6;
+    border: none;
+    border-radius: 60px;
+    padding: 15px;
+    font-size: 20px;
+}
+button{
+    width: 293px;
+    height: 68px;
+    background-color: #DB4F04;
+    text-align: center;
+    border: none;
+    border-radius: 60px;
+    color: #FFE9E6;
+    font-size: 30px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+p{
+    color: #FFE9E6;
+    font-size: 25px;
 }

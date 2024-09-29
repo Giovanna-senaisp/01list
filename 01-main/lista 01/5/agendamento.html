@@ -9,35 +9,36 @@
 </head>
 <body>
     <header>
-        <h1>INÍCIO</h1>
+        <a href="inicio.html"><strong>INÍCIO</strong></a>
         <div class="nav">
         <a href="cardapio.html"><strong>CARDÁPIO</strong></a>
-        <a href="agendamento.html"><strong>AGENDAMENTO</strong></a>
+        <h1><strong>AGENDAMENTO</strong></h1>
     </div>
     </header>
     <main>
         <h1 titulo>AGENDAMENTO</h1>
         <div class="verde">
-            <div class="data">
-                <p><strong>SELECIONE A DATA DE SUA <br> RESERVA</strong></p>
+            <div class="fileira">
+                <div class="pergunta">
+                    <p><strong>DATA:</strong></p>
+                    <input type="date">
+                </div>
+                <div class="pergunta">
+                    <p><strong>NOME COMPLETO</strong></p>
+                    <input type="text">
+                </div>
             </div>
-            <div class="perguntas">
-            <div pergunta1>
-                <p><strong>NOME COMPLETO:</strong></p>
-                <input type="text">
-            </div>
-            <div class="pergunta2_3">
-                <div class="pergunta2">
-                <p><strong>EMAIL:</strong></p>
-                <input type="text">
-            </div>
-            <div class="pergunta3">
-                <p><strong>TELEFONE:</strong></p>
-                <input type="text">
-            </div>
+            <div class="fileira">
+                <div class="pergunta">
+                    <p><strong>EMAIL</strong></p>
+                    <input type="email">
+                </div>
+                <div class="pergunta">
+                    <p><strong>TELEFONE</strong></p>
+                    <input type="number">
+                </div>
             </div>
             <button><strong>ENVIAR</strong></button>
-            </div>
         </div>
     </main>
 </body>
