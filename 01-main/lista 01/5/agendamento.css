@@ -16,18 +16,19 @@ header {
     border-radius: 0 0 60px 60px;
     height: 196px;
     width: 100%;
+    border: 15px;
 }
 
 header h1 {
     font-size: 40px;
     color: #FFE9E6;
-
 }
 
 .nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 a {
@@ -87,6 +88,8 @@ button{
     font-size: 30px;
     margin-left: 120px;
     margin-top: 30px;
+    font-family: "fonte";
+    src: url(apple_garamond/AppleGaramond-Bold.ttf);
 }
 p{
     color: #FFE9E6;
