@@ -8,8 +8,7 @@ header{
 }
 main{
     background-color: #D5D5D5;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: center;
 }
 .inicio{
     display: flex;
@@ -75,6 +74,7 @@ p{
 .diretor{
     display: flex;
     align-items: flex-start;
+    padding-left: 50px;
 }
 .texto-diretor{
     padding: 15px;
@@ -93,14 +93,15 @@ p{
 a{
     color: black;
     font-size: 32px;
+    transition: all 0.5s ease-in-out;
 }
 a:hover {
-    transition: all 0.5s ease-out;
+    
     font-size: 34px;
     background-color: #3B63A8;
     border-radius: 25px;
     padding: 10px;
-  }
+}
 .img_opiniao{
     display: flex;
     flex-direction: row;
@@ -109,7 +110,7 @@ a:hover {
     padding: 15px;
 }
 .img_opiniao img{
- padding: 5px;
+padding: 5px;
 }
 .opiniaoT{
     display: flex;

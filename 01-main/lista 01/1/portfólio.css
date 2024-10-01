@@ -67,7 +67,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.imgM{
+.imgM img{ 
     width: 213px;
     height: 310px;
     margin: 15px;
