@@ -40,3 +40,117 @@ a {
 main {
     background-color: #FFE9E6;
 }
+.fileira {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px;
+}
+
+.comidas1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D411B;
+    width: 360px;
+    height: 517.5px;
+    margin-top: 20px;
+    border-radius: 27px 27px 0 0;
+}
+
+.comidast {
+    font-size: 45px;
+    background-color: #FFE9E6;
+    text-align: center;
+    width: 340px;
+    height: 180px;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.comidas1 img {
+    width: 310px;
+    height: 310px;
+}
+
+.comidas2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #770B00;
+    width: 360px;
+    height: 517.5px;
+    margin-top: 20px;
+    border-radius: 27px 27px 0 0;
+}
+
+.comidas2 img {
+    width: 310px;
+    height: 310px;
+}
+.comidas3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DB4F04;
+    width: 360px;
+    height: 517.5px;
+    margin-top: 20px;
+    border-radius: 27px 27px 0 0;
+}
+
+.comidas3 img {
+    width: 310px;
+    height: 310px;
+}
+
+.comidas3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DB4F04;
+    width: 360px;
+    height: 517.5px;
+    margin-top: 20px;
+    border-radius: 27px 27px 0 0;
+}
+
+.comidas3 img {
+    width: 310px;
+    height: 310px;
+}
+
+.comidas4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D46E00;
+    width: 360px;
+    height: 517.5px;
+    margin-top: 20px;
+    border-radius: 27px 27px 0 0;
+}
+
+.comidas4 img {
+    width: 320px;
+    height: 210px;
+}
+.titulo{
+    font-size: 55px;
+    text-align: center;
+}
+.texto{
+    font-size: 45px;
+    margin-left: 125px;
+}
+footer{
+    height: 150px;
+    background-color: #1D411B;
+    margin-top: 50px;
+}
