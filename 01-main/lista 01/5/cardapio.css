@@ -138,8 +138,8 @@ main {
 }
 
 .comidas4 img {
-    width: 320px;
-    height: 210px;
+    width: 350x;
+    height: 320px;
 }
 .titulo{
     font-size: 55px;
@@ -152,5 +152,5 @@ main {
 footer{
     height: 150px;
     background-color: #1D411B;
-    margin-top: 50px;
+    margin-top: 80px;
 }
