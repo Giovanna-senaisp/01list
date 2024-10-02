@@ -202,8 +202,10 @@ footer {
     background-color: #1D411B;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     border-radius: 60px 60px 0 0;
+    height: 500px;
+    margin-top: 50px;
 }
 
 .siga {
@@ -225,9 +227,10 @@ footer {
     padding: 15px;
 }
 
-.img-footer {
+.img-footer img{
     width: 831px;
     height: 893px;
     background: none;
-    margin-top: -800px;
+    margin-top: -8000px;
+    margin-left: 5000px;
 }
