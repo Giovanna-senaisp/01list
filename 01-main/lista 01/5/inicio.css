@@ -176,8 +176,9 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #DB4F04;
-    width: 369px;
+    width: 360px;
     height: 517.5px;
     margin-top: 20px;
     border-radius: 27px 27px 0 0;
@@ -187,10 +188,11 @@ main {
     font-size: 45px;
     background-color: #FFE9E6;
     text-align: center;
-    width: 360px;
+    width: 340px;
     height: 180px;
     align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 .comida1 img {
@@ -226,11 +228,14 @@ footer {
     justify-content: space-around;
     padding: 15px;
 }
-
+.redes img{
+    width: 50px;
+    height: 50px;
+}
 .img-footer img{
     width: 831px;
     height: 893px;
     background: none;
     margin-top: -8000px;
-    margin-left: 5000px;
+    margin-left: 50000px;
 }
