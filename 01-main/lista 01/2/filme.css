@@ -10,6 +10,9 @@ main{
     background-color: #D5D5D5;
     justify-content: center;
 }
+body{
+    background-color: #D5D5D5;
+}
 .inicio{
     display: flex;
     flex-direction: row;
@@ -30,11 +33,9 @@ padding: 25px;
 }
 .elenco{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: column;
-    width: 100%;
-    padding-left: 50px;
+    justify-content: center;
+    margin-left: 100px;
 }
 .elencoT{
     text-align: left;
