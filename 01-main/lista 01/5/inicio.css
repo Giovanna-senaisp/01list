@@ -3,6 +3,13 @@
     src: url(apple_garamond/AppleGaramond-Bold.ttf);
 }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
     background-color: #FFE9E6;
 }
@@ -65,30 +72,47 @@ main {
 .inicio2 {
     background-color: #1D411B;
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     justify-content: center;
     align-items: center;
+    height: 620px;
+    overflow: hidden;
+    width: 100%;
 }
 
 .inicio2 h1 {
     font-size: 64px;
     color: #FFE9E6;
-    padding-left: 90px;
     text-align: center;
+    margin-right: 500px;
 
 }
 
 .inicio2 img {
     width: 1148.23px;
     height: 645px;
+    position: absolute;
+}
+
+.inicio2_info{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
 }
 
 .laranja {
-    width: 8800px;
+    width: 1000px;
     height: 645px;
     transform: skew(15deg);
     background: #D46E00;
-    margin-left: -200px;
+    /* margin-left: -200px; */
+    z-index: 1;
+    position: absolute;
+
 }
 
 .avaliacao {
