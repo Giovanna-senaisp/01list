@@ -88,8 +88,8 @@ main {
 }
 
 .comidas2 img {
-    width: 310px;
-    height: 310px;
+    width: 250px;
+    height: 300px;
 }
 .comidas3 {
     display: flex;
@@ -147,10 +147,11 @@ main {
 }
 .texto{
     font-size: 45px;
-    margin-left: 125px;
+    margin-left: 100px;
 }
 footer{
-    height: 150px;
+    height: 180px;
     background-color: #1D411B;
     margin-top: 80px;
+    width: 100%;
 }

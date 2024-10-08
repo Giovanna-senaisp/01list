@@ -218,8 +218,8 @@ main {
 }
 
 .comida1 img {
-    width: 310px;
-    height: 310px;
+    width: 313px;
+    height: 313px;
 }
 .comida2 {
     display: flex;
@@ -244,8 +244,8 @@ main {
 }
 
 .comida2 img {
-    width: 310px;
-    height: 310px;
+    width: 307px;
+    height: 307px;
 }
 
 .comida3 {
@@ -271,8 +271,8 @@ main {
 }
 
 .comida3 img {
-    width: 310px;
-    height: 310px;
+    width: 330px;
+    height: 322px;
 }
 
 footer {
@@ -298,6 +298,7 @@ footer {
     color: #FFE9E6;
     padding: 15px;
     text-align: center;
+    font-size: 48px;
 }
 
 .redes {
@@ -305,6 +306,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
     padding: 15px;
+    margin-top: 20px;
 }
 .redes img{
     width: 50px;
