@@ -4,24 +4,26 @@
 }
 
 header {
-    background: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 15px;
+    position: fixed;
+    left: 50;
+    right: 50;
+    z-index: 1000;
+    background: none;
+    margin-top: 30px;
 }
 
 .header {
     background-color: #FABD0D;
     border-radius: 30px;
-    width: 660px;
-    height: 103px;
+    width: 560px;
+    height: 110px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
-    position: fixed;
-    border-top: 300px;
+    margin-left: 430px
     
 }
 
@@ -29,14 +31,20 @@ header {
     background: none;
     border: none;
     font-size: 35px;
+    font-family: "fonte";
+    src: url(apple_garamond/AppleGaramond-Bold.ttf);
+}
+.bt_header:hover button{
+    border: 5px solid #FBF5E7;
 }
 body{
     background-color: #FBF5E7;
 }
 main {
     background-color: #FBF5E7;
-    padding-left: 50px;
-    padding-right: 50px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .baner {
@@ -47,6 +55,8 @@ main {
     flex-direction: column;
     justify-content: center;
     text-align: left;
+    margin-left: 130px;
+    margin-top: 200px;
 }
 
 .Titulob {
@@ -79,48 +89,56 @@ main {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .quadrinho {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     text-align: center;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 320px;
+    height: 550px;
 }
 
-.quadrinho img {
+.quadrinho img{
     width: 320px;
     height: 430px;
+    border-radius: 20px 20px 0 0;
 }
 
-.quadrinho h1 {
+.quadrinho h1{
     font-size: 25px;
 }
 
-.quadrinho p {
+.quadrinho p{
     font-size: 15px;
 }
 
 .nav-marvel a{
     text-decoration: dashed;
-    font-size: 35px;
+    font-size: 50px;
     color: black;
-    padding: 15px;
+    margin-left: 50px;
 }
 
-.nav-marvel:hover {
+.nav-marvel:hover a{
     transition: all 0.5s ease-out;
     text-decoration: solid;
     color: #FD1E4A;
 }
 
-.nav-dc {
+.nav-dc a{
     text-decoration: dashed;
-    font-size: 35px;
+    font-size: 50px;
     color: black;
-    padding: 15px;
+    margin-left: 50px;
 }
 
-.nav-dc:hover {
+.nav-dc:hover a{
     transition: all 0.5s ease-out;
     text-decoration: solid;
     color: #1E27FD;
@@ -128,15 +146,13 @@ main {
 
 .amarelo_footer {
     background-color: #FABD0D;
-    /* width: 714px;
-  height: 500px; */
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     text-align: left;
     margin-left: 50px;
-    width: 714px;
+    width: 724px;
     height: 500px;
     position: relative;
     margin-top: -150px;
