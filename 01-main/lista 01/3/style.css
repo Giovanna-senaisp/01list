@@ -5,38 +5,63 @@
 
 header {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: center; /* Centraliza horizontalmente */
     position: fixed;
-    left: 50;
-    right: 50;
+    width: 100%; /* Define que a header ocupa toda a largura da página */
+    top: 30px; /* Alinhado no topo com um espaçamento de 30px */
     z-index: 1000;
     background: none;
-    margin-top: 30px;
+    margin: 0 auto; /* Garante que a header fique centralizada */
 }
 
+/* Estilos para a caixa interna da header */
 .header {
-    background-color: #FABD0D;
-    border-radius: 30px;
-    width: 560px;
-    height: 110px;
+    background-color: #FABD0D; /* Cor de fundo da header */
+    border-radius: 30px; /* Bordas arredondadas */
+    width: 60%; /* Ajusta a largura para 60% da página, isso mantém a centralização */
+    max-width: 800px; /* Limita a largura máxima */
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-left: 430px
-    
+    padding: 10px 20px; /* Adiciona um pouco de padding para espaçamento interno */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave para deixar mais bonito */
 }
 
+/* Estilos dos botões da header */
 .bt_header {
     background: none;
     border: none;
-    font-size: 35px;
+    font-size: 35px; /* Tamanho do texto ajustado */
     font-family: "fonte";
-    src: url(apple_garamond/AppleGaramond-Bold.ttf);
+    color: black;
+    padding: 10px 20px; /* Espaçamento interno */
+    transition: all 0.3s ease;
+    border-radius: 10px; /* Bordas arredondadas nos botões */
 }
-.bt_header:hover button{
-    border: 5px solid #FBF5E7;
+
+/* Efeito hover nos botões */
+.bt_header:hover {
+    border: 2px solid #FBF5E7; /* Bordas mais finas para um visual mais elegante */
+    color: white;
+    background-color: #e68a00; /* Muda a cor de fundo no hover */
+    cursor: pointer;
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
 }
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .header {
+        width: 90%; /* Ajusta a largura para telas menores */
+        padding: 5px 10px;
+    }
+    
+    .bt_header {
+        font-size: 20px; /* Reduz o tamanho da fonte em telas menores */
+        padding: 8px 15px; /* Ajusta o espaçamento interno */
+    }
+}
+
 body{
     background-color: #FBF5E7;
 }
@@ -46,17 +71,17 @@ main {
     display: flex;
     flex-direction: column;
 }
-
+.baner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .baner {
     background-image: url(img/booner.png);
     height: 615px;
     width: 1181px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
     text-align: left;
-    margin-left: 130px;
-    margin-top: 200px;
 }
 
 .Titulob {
@@ -104,9 +129,10 @@ main {
     height: 550px;
 }
 
-.quadrinho img{
-    width: 320px;
-    height: 430px;
+.quadrinho img {
+    width: 100%;
+    height: auto;
+    max-height: 430px;
     border-radius: 20px 20px 0 0;
 }
 
