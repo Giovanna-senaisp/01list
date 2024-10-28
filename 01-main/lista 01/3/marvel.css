@@ -1,8 +1,25 @@
-font-face {
+
+@font-face { 
     font-family: "fonte";
     src: url(apple_garamond/AppleGaramond-Bold.ttf);
 }
-header{
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FBF5E7;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
     background-color: #FD1E4A;
     display: flex;
     flex-direction: row;
@@ -10,54 +27,97 @@ header{
     align-items: center;
     border-radius: 0 0 30px 30px;
     height: 221px;
+    width: 100%;
+    padding: 0 50px;
 }
-header h1{
+
+header h1 {
     font-size: 70px;
     color: #FBF5E7;
     padding-right: 50px;
+    font-family: "fonte";
 }
-button{
+
+button {
     background-color: #FD1E4A;
-    border: 0;
+    border: none;
     width: 93px;
     height: 93px;
-    padding-left: 50px;
-    box-shadow: 5px;
+    padding-left: 20px;
+    cursor: pointer;
 }
-.quadinhos{
+
+button img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.quadrinhos {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
 }
-.fileira{
+
+
+.fileira {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
-.quadrinho{
+
+
+.quadrinho {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     padding: 20px;
-}
-.quadrinho h1{
-    font-size: 25px;
+    border-radius: 20px;
+    width: 350px;
     text-align: center;
+    border: 6px solid black;
 }
-.info_baixo{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 15px;
+
+.quadrinho h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: black;
 }
-.info_baixo img{
-    width: 68px;
-    height: 62px;
-}
-.info_baixo p{
-    font-size: 25px
-}
-.imgq{
+
+.imgq img {
+    width: 100%;
     height: 320px;
-    height: 430px;
+    border-radius: 15px;
+}
+
+
+.info_baixo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.info_baixo p {
+    font-size: 25px;
+}
+
+.info_baixo img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
 }
